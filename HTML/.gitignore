@@ -1,0 +1,9 @@
+# gulp
+node_modules/
+gulpfile.js
+
+.idea/
+
+*.map
+*.json
+
