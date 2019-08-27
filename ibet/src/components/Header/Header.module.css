@@ -1,0 +1,84 @@
+.container {
+  max-width: 960px;
+  display: flex;
+}
+
+.header {
+  padding: 20px 0;
+  margin: 0 auto;
+  background: #87ceeb; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #87ceeb,
+    #358540
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #87ceeb,
+    #358540
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #fff;
+  font-weight: bold;
+}
+
+.navigation__top {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.navigation__bottom {
+  display: flex;
+  flex-flow: column wrap;
+  margin: 0 auto;
+}
+
+.logoString {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.navigation__logo {
+  display: flex;
+  /* justify-content: flex-start; */
+  font-size: 38px;
+  font-weight: 700;
+}
+
+.navigation__items {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.navigation__greet {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+
+.greeting {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.headerButton {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.navInfo_time,
+.navInfo__logo,
+.navInfo,
+.greeting {
+  color: black;
+  text-decoration: none;
+  padding: 0;
+  margin: 0 10px;
+}
+
+.navInfo:hover {
+  color: blue;
+}

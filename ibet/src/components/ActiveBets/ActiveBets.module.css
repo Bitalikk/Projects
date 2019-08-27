@@ -1,0 +1,11 @@
+.back {
+  background: rgba(96, 131, 96, 0.8);
+
+  font-weight: bold;
+
+  margin: 30px;
+  margin-top: 50px;
+
+  border-radius: 10px;
+  padding: 40px;
+}

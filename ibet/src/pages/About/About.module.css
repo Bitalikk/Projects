@@ -1,0 +1,175 @@
+.project {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  margin: 0 auto;
+  background-color: aquamarine;
+}
+
+.guru {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.guru::after {
+  content: '';
+  background-color: #87ceeb;
+  width: 2px;
+  height: 50px;
+}
+
+.generationZ::before {
+  content: '';
+  position: absolute;
+  background-color: #87ceeb;
+  width: 75%;
+  height: 2px;
+  top: -17px;
+  left: 9.75%;
+}
+
+.generationZ {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  position: relative;
+}
+
+.unitLeft::before {
+  content: '';
+  position: absolute;
+  width: 20px;
+  border-bottom: 2px solid transparent;
+  border-right: 2px solid transparent;
+  border-top: 2px solid #87ceeb;
+  border-left: 2px solid #87ceeb;
+  border-radius: 6px;
+  height: 20px;
+  top: -17px;
+}
+/* Bakov */
+.homePage {
+  display: flex;
+  flex-flow: column wrap;
+  position: relative;
+}
+/* Hrevtsova */
+.headerFooter {
+  display: flex;
+}
+/* Kovalenko */
+.contactUs {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+.navContact::before {
+  content: '';
+  background-color: #87ceeb;
+  position: absolute;
+  width: 50%;
+  height: 2px;
+  top: -17px;
+  left: 23%;
+}
+
+.navContact {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  position: relative;
+}
+
+.registration {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.login {
+  display: flex;
+}
+
+.profile {
+  display: flex;
+}
+/* Romanov */
+.scores {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+.scoresTeam {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  position: relative;
+}
+
+.scoresTeam::before {
+  content: '';
+  position: absolute;
+  top: -17px;
+  background-color: #87ceeb;
+  width: 295px;
+  height: 2px;
+  left: 16.35%;
+}
+
+.mainUnit,
+.unitLeft,
+.unit,
+.unitRight {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  position: relative;
+  width: 150px;
+}
+
+.aboutProject,
+.unitName {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 auto;
+}
+.unitName {
+  width: 121px;
+  border: 1px solid #87ceeb;
+  box-shadow: 10px 10px 18px 0px #87ceeb;
+}
+
+p {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.avatar {
+  border-radius: 50%;
+  margin: 4px;
+}
+.unit::before {
+  content: '';
+  position: absolute;
+  background-color: #87ceeb;
+  width: 2px;
+  height: 20px;
+  top: -15px;
+}
+
+.unitRight::before {
+  content: '';
+  position: absolute;
+  width: 20px;
+  border-bottom: 2px solid transparent;
+  border-left: 2px solid transparent;
+  border-top: 2px solid #87ceeb;
+  border-right: 2px solid #87ceeb;
+  border-radius: 4px;
+  height: 20px;
+  top: -17px;
+}

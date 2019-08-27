@@ -1,0 +1,90 @@
+.summarySection {
+  background-color: #eff1f3;
+  height: 100vh;
+}
+
+.colorOverCcal {
+  color: #a21919;
+  font-weight: bold;
+}
+
+.start {
+  color: var(--text-color-white);
+  background-color: var(--button-color);
+  line-height: 30px;
+  border-radius: 20px;
+  display: block;
+  width: 100px;
+  font-family: var(--light-fonts);
+  border: none;
+  text-decoration: none;
+  text-align: center;
+}
+
+.listSummery,
+.pSummery {
+  color: #999daa;
+  list-style: none;
+  padding: 0;
+  line-height: 30px;
+  font-size: 15px;
+  font-family: "Verdana";
+}
+
+.listSummery li {
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+}
+
+.summarySection h3 {
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-family: "Verdana";
+  margin-bottom: 10px;
+}
+
+.summarySection div {
+  width: 275px;
+  padding: 25px 0;
+  margin: auto;
+
+}
+
+@media(min-width:768px) {
+  .summarySection {
+    background-color: #eff1f3;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-image: url(../../assets/images/greenleaves-tablet.png), linear-gradient(#eff1f3, #eff1f3);
+    height: 100vh;
+  }
+
+  .summarySection div {
+    width: 319px;
+    padding: 30px;
+    margin: 0;
+  }
+}
+
+@media(min-width:1024px) {
+  .summarySection div {
+    width: 100%;
+    padding: 30px;
+    margin: 0 auto;
+  }
+
+  .summarySection {
+    background-image: url(../../assets/images/greenleaves.png), linear-gradient(#eff1f3, #eff1f3);
+    background-color: #eff1f3;
+    padding: 230px 30px 50px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100vh;
+  }
+}

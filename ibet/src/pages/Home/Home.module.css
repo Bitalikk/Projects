@@ -1,0 +1,100 @@
+.wrapper {
+  /* background: url(https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero-00e10b1f.jpg); */
+  background-color: #87ceeb;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  margin-top: 17px;
+}
+
+.title {
+  text-align: center;
+  display: block;
+  flex-flow: row;
+  line-height: 1.75;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  font-weight: 500;
+  border-radius: 4px;
+  letter-spacing: 0.02857em;
+  text-transform: uppercase;
+  padding: 14px;
+  /* position: absolute;
+  top: -70px;
+  left: 430px; */
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row;
+  margin-top: 100px;
+  line-height: 1.75;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  font-weight: 500;
+  border-radius: 4px;
+  letter-spacing: 0.02857em;
+  text-transform: uppercase;
+  /* position: absolute;
+  left: 180px;
+  top: 110px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+}
+
+.deal {
+  margin-top: 250px;
+  line-height: 1.75;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  font-weight: 500;
+  border-radius: 4px;
+  letter-spacing: 0.02857em;
+  text-transform: uppercase;
+  position: absolute !important;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.slogan {
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  font-weight: 450;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+}
+
+.click {
+  margin-right: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row;
+  text-decoration: none;
+  color: black;
+}
+
+.click:hover {
+  color: blue;
+}
+
+.earth {
+  width: 20%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row;
+  margin: 0 auto;
+}

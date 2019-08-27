@@ -1,0 +1,77 @@
+/* * {
+  border: 1px solid red;
+} */
+
+.header {
+  background: teal
+    url(http://fonday.ru/images/tmp/12/5/original/12571xBztWCbFAmfvqpchXGEJNy.jpg);
+  background-blend-mode: screen;
+  padding: 30px;
+  font-size: 20px;
+  margin: auto;
+  background-size: cover;
+}
+
+.first {
+  background: teal
+    url(https://artwalls.com.ua/image/catalog/fpz/5ba0fd19bb2ccPA-181_o.jpg.pagespeed.ce.hvgbWXwyMw.jpg);
+  font-weight: bold;
+  background-size: cover;
+  background-blend-mode: screen;
+  margin: auto;
+
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  /* padding-bottom: 40px; */
+  display: flex;
+  position: relative;
+  flex-flow: row-reverse;
+}
+
+.img {
+  height: 180px;
+  border-radius: 50%;
+  border: rgba(235, 231, 227, 0.8) 15px solid;
+  position: absolute;
+  right: 710px;
+  top: 100px;
+}
+
+.info {
+  /* margin-left: auto; */
+  margin: 60px;
+
+  /* background: rgb(235, 231, 227); */
+  background-color: rgba(235, 231, 227, 0.8);
+  font-size: 18px;
+  padding: 10px;
+  color: rgba(63, 62, 61, 0.8);
+  border-radius: 10px;
+}
+
+.main {
+  /* background: rgb(235, 231, 227, 0.5); */
+  background-color: rgba(235, 231, 227, 0.8);
+  /* padding: 40px; */
+  width: 960px;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.but {
+  width: 170px;
+  color: rgba(63, 62, 61, 0.8);
+}
+
+.bet {
+  padding: 30px;
+}
+
+.lineSecond {
+  border-bottom: 2px solid rgba(150, 149, 148, 0.7);
+  /* width: 60%; */
+  position: relative;
+  /* top: 16px; */
+  margin-bottom: 0px;
+  /* float: inline-start; */
+}

@@ -1,0 +1,65 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.modal {
+  position: relative;
+  padding: 16px;
+  max-width: 500px;
+  width: 100%;
+  min-height: 200px;
+  background-color: #fff;
+}
+
+.modalBtn {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 10px;
+}
+
+.betForm label, .betForm p {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  padding: 10px;
+  border-bottom: 1px solid rgb(189, 183, 183);
+}
+
+.betForm input, .betForm select {
+  width: 190px;
+}
+
+.betForm select {
+  font-size: 16px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  transition: .2s;
+}
+
+.betForm select:hover {
+  border-bottom: 2px solid black;
+}
+
+.betForm select:focus {
+  border-bottom: 2px solid #303F9F;
+}
+
+.modal input[type='number']::-webkit-inner-spin-button,
+.modal input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.modal input[type='number'] {
+  -moz-appearance: textfield;
+}

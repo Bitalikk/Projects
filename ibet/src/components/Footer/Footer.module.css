@@ -1,0 +1,63 @@
+.footer {
+  padding: 20px 0;
+  background: #87ceeb; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #358540,
+    #87ceeb
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #358540,
+    #87ceeb
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #fff;
+  font-weight: bold;
+}
+
+.footerWrapper__top {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+  color: black;
+}
+.footerColumn {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+}
+
+.logo,
+.contacts,
+.icons {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.icons {
+  margin: 0 10px;
+}
+
+.contacts a {
+  padding: 18px 0;
+}
+
+.cards {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.cards img {
+  margin: 0 10px;
+}
+
+.footerWrapper__bottom {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  color: black;
+}

@@ -1,0 +1,34 @@
+.adressInfo {
+  border: solid 1px rgb(212, 211, 211);
+  border-radius: 6px;
+  padding-left: 30px;
+}
+
+.mainForm {
+  display: inline-block;
+  width: 650px;
+}
+
+.adressInfo {
+  margin-bottom: 50px;
+}
+
+.inputs {
+  width: 600px;
+}
+
+.button {
+  margin-top: 40px;
+}
+
+.btn {
+  color: red;
+}
+
+.label {
+  margin-bottom: 50px;
+}
+
+.textField {
+  color: white;
+}
